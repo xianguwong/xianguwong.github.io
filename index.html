@@ -29,8 +29,8 @@
     background: var(--rice);
     color: var(--ink);
     font-family: 'Noto Sans TC', sans-serif;
-    font-weight: 300;
-    line-height: 1.8;
+    font-weight: 400;
+    line-height: 1.9;
     overflow-x: hidden;
   }
 
@@ -76,7 +76,7 @@
   }
 
   .nav-links a {
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2px;
     color: var(--ink-light);
     text-decoration: none;
@@ -98,7 +98,7 @@
   .nav-links a:hover::after { transform: scaleX(1); }
 
   .nav-cta {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 2px;
     color: var(--rice);
     background: var(--vermilion);
@@ -180,7 +180,7 @@
 
   .hero-subtitle {
     font-family: 'Noto Serif TC', serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     color: var(--mist);
     letter-spacing: 4px;
@@ -188,7 +188,7 @@
   }
 
   .hero-desc {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
     color: var(--ink-light);
     max-width: 420px;
@@ -205,7 +205,7 @@
 
   .btn-primary {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2px;
     color: var(--rice);
     background: var(--vermilion);
@@ -221,7 +221,7 @@
 
   .btn-secondary {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2px;
     color: var(--vermilion);
     background: transparent;
@@ -236,6 +236,21 @@
   .btn-secondary:hover { background: var(--vermilion-pale); }
 
   /* Vertical text decoration */
+  .hero-illustration {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 340px;
+    opacity: 0.92;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  @media (max-width: 900px) {
+    .hero-illustration { display: none; }
+  }
+
   .hero-vertical {
     position: absolute;
     right: 60px; top: 50%;
@@ -258,7 +273,7 @@
   }
 
   .section-tag {
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 4px;
     color: var(--gold);
     display: block;
@@ -267,7 +282,7 @@
 
   .section-title {
     font-family: 'Noto Serif TC', serif;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 500;
     color: var(--ink);
     letter-spacing: 4px;
@@ -319,7 +334,7 @@
 
   .service-number {
     font-family: 'Noto Serif TC', serif;
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 3px;
     color: var(--gold);
     margin-bottom: 20px;
@@ -328,7 +343,7 @@
 
   .service-name {
     font-family: 'Noto Serif TC', serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 500;
     color: var(--ink);
     letter-spacing: 3px;
@@ -336,7 +351,7 @@
   }
 
   .service-desc {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 2;
     color: var(--mist);
     margin-bottom: 24px;
@@ -344,7 +359,7 @@
 
   .service-price {
     font-family: 'Noto Serif TC', serif;
-    font-size: 20px;
+    font-size: 22px;
     color: var(--vermilion);
     letter-spacing: 1px;
   }
@@ -401,7 +416,7 @@
 
   .step-title {
     font-family: 'Noto Serif TC', serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     color: var(--ink);
     letter-spacing: 2px;
@@ -409,7 +424,7 @@
   }
 
   .step-desc {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--mist);
     line-height: 1.9;
   }
@@ -450,7 +465,7 @@
   }
 
   .testimonial-text {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 2.2;
     color: rgba(247,243,237,0.75);
     margin-bottom: 24px;
@@ -464,7 +479,7 @@
   }
 
   .testimonial-tag {
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 2px;
     color: var(--gold-light);
     border: 1px solid rgba(200,151,58,0.3);
@@ -472,7 +487,7 @@
   }
 
   .testimonial-who {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--mist);
     letter-spacing: 1px;
   }
@@ -519,7 +534,7 @@
 
   .about-title {
     font-family: 'Noto Serif TC', serif;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 500;
     color: var(--ink);
     letter-spacing: 3px;
@@ -527,7 +542,7 @@
   }
 
   .about-text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2.2;
     color: var(--ink-light);
     margin-bottom: 16px;
@@ -541,7 +556,7 @@
   }
 
   .about-tag {
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 2px;
     color: var(--vermilion);
     border: 1px solid var(--vermilion-pale);
@@ -575,7 +590,7 @@
 
   .faq-q-text {
     font-family: 'Noto Serif TC', serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: var(--ink);
     letter-spacing: 1px;
@@ -597,7 +612,7 @@
   .faq-item.open .faq-icon { transform: rotate(45deg); }
 
   .faq-a {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 2.2;
     color: var(--mist);
     margin-top: 16px;
@@ -638,7 +653,7 @@
   }
 
   .booking-sub {
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 3px;
     color: var(--mist);
     margin-bottom: 48px;
@@ -655,7 +670,7 @@
 
   .btn-line {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2px;
     color: #fff;
     background: #06C755;
@@ -684,14 +699,14 @@
 
   .footer-brand {
     font-family: 'Noto Serif TC', serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--vermilion);
     letter-spacing: 3px;
   }
 
   .footer-text {
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 2px;
     color: rgba(247,243,237,0.3);
   }
@@ -718,7 +733,22 @@
     nav { padding: 16px 24px; }
     .nav-links { display: none; }
     .hero { padding: 90px 24px 60px; }
-    .hero-vertical { display: none; }
+    .hero-illustration {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 340px;
+    opacity: 0.92;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  @media (max-width: 900px) {
+    .hero-illustration { display: none; }
+  }
+
+  .hero-vertical { display: none; }
     #services, #how, #testimonials, #faq, #booking { padding: 70px 24px; }
     #about { flex-direction: column; padding: 70px 24px; gap: 40px; }
     .steps { flex-direction: column; gap: 40px; }
@@ -760,6 +790,67 @@
     </div>
   </div>
   <div class="hero-vertical">仙姑解惑大小事・通靈引路・指點迷津</div>
+
+    <div class="hero-illustration">
+      <svg width="100%" viewBox="0 0 480 520" role="img" xmlns="http://www.w3.org/2000/svg">
+        <title>蓮花燭光插圖</title>
+        <desc>水面上盛開的蓮花，中央燃著溫暖燭光，象徵在黑暗中引路守護</desc>
+        <defs>
+          <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#f5e6b0" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#f5e6b0" stop-opacity="0"/>
+          </radialGradient>
+          <radialGradient id="water2" cx="50%" cy="30%" r="70%">
+            <stop offset="0%" stop-color="#dde8e0"/>
+            <stop offset="100%" stop-color="#c8d8cc"/>
+          </radialGradient>
+        </defs>
+        <ellipse cx="240" cy="400" rx="210" ry="70" fill="url(#water2)" opacity="0.45"/>
+        <ellipse cx="240" cy="410" rx="190" ry="55" fill="#ccddd4" opacity="0.3"/>
+        <ellipse cx="90" cy="430" rx="45" ry="10" fill="#b8cfc2" opacity="0.45"/>
+        <ellipse cx="390" cy="422" rx="38" ry="9" fill="#b8cfc2" opacity="0.38"/>
+        <ellipse cx="340" cy="446" rx="28" ry="7" fill="#b8cfc2" opacity="0.3"/>
+        <ellipse cx="145" cy="448" rx="24" ry="6" fill="#b8cfc2" opacity="0.28"/>
+        <path d="M90,430 Q88,392 94,362 Q98,342 96,322" fill="none" stroke="#7a9e88" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M96,322 Q102,298 106,274 Q109,254 110,236" fill="none" stroke="#7a9e88" stroke-width="2" stroke-linecap="round"/>
+        <path d="M94,362 Q65,343 50,323 Q42,308 46,294" fill="none" stroke="#8aae96" stroke-width="1.5" stroke-linecap="round"/>
+        <ellipse cx="46" cy="289" rx="30" ry="16" fill="#9dc4aa" opacity="0.65" transform="rotate(-20,46,289)"/>
+        <path d="M96,342 Q124,318 138,298 Q145,284 140,270" fill="none" stroke="#8aae96" stroke-width="1.5" stroke-linecap="round"/>
+        <ellipse cx="140" cy="265" rx="26" ry="15" fill="#a8ceac" opacity="0.6" transform="rotate(15,140,265)"/>
+        <path d="M390,422 Q388,387 391,357 Q394,337 392,312" fill="none" stroke="#7a9e88" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M391,357 Q362,337 350,317 Q344,304 348,290" fill="none" stroke="#8aae96" stroke-width="1.5" stroke-linecap="round"/>
+        <ellipse cx="348" cy="285" rx="28" ry="15" fill="#9dc4aa" opacity="0.62" transform="rotate(-15,348,285)"/>
+        <path d="M392,337 Q420,312 432,292 Q439,279 434,265" fill="none" stroke="#8aae96" stroke-width="1.5" stroke-linecap="round"/>
+        <ellipse cx="434" cy="260" rx="24" ry="14" fill="#a8ceac" opacity="0.58" transform="rotate(18,434,260)"/>
+        <path d="M240,420 Q238,382 240,342 Q241,312 240,282" fill="none" stroke="#5a8a70" stroke-width="3" stroke-linecap="round"/>
+        <path d="M240,370 Q214,347 200,323 Q191,306 194,286" fill="none" stroke="#6a9a7e" stroke-width="2" stroke-linecap="round"/>
+        <ellipse cx="194" cy="280" rx="34" ry="19" fill="#8fbfa0" opacity="0.72" transform="rotate(-10,194,280)"/>
+        <path d="M240,355 Q268,332 282,308 Q290,292 286,274" fill="none" stroke="#6a9a7e" stroke-width="2" stroke-linecap="round"/>
+        <ellipse cx="286" cy="268" rx="32" ry="18" fill="#96c4a4" opacity="0.68" transform="rotate(12,286,268)"/>
+        <path d="M110,236 Q96,216 84,200 Q74,187 64,173" fill="none" stroke="#c08a6a" stroke-width="2" stroke-linecap="round"/>
+        <path d="M110,236 Q122,214 132,198 Q140,185 146,168" fill="none" stroke="#c08a6a" stroke-width="2" stroke-linecap="round"/>
+        <path d="M110,236 Q110,211 111,191 Q112,174 113,156" fill="none" stroke="#c08a6a" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M64,173 Q52,150 50,136 Q57,150 68,160 Q78,144 74,127 Q84,145 82,160 Q94,147 96,130 Q97,148 91,162 Q104,151 110,136 Q105,155 100,167 Q113,153 120,136 Q117,157 110,168 Q118,156 128,146 Q122,162 115,172 Q122,162 132,157 Q125,170 120,178 Q127,170 136,165 Q128,177 124,186 Q110,170 88,160 Q73,165 64,173Z" fill="#d4798a" opacity="0.82"/>
+        <path d="M240,282 Q222,258 220,238 Q218,222 228,210 Q236,200 240,202 Q244,200 252,210 Q262,222 260,238 Q258,258 240,282Z" fill="#e8c0cc" opacity="0.82"/>
+        <path d="M240,282 Q218,255 210,232 Q205,215 212,200 Q220,185 234,182 Q248,185 252,200 Q256,215 248,232 Q242,255 240,282Z" fill="#e8b4c4" opacity="0.88"/>
+        <path d="M240,282 Q258,252 268,228 Q275,210 268,195 Q260,180 246,178 Q232,178 228,193 Q222,210 232,232 Q238,255 240,282Z" fill="#d4899e" opacity="0.84"/>
+        <path d="M240,282 Q228,264 230,248 Q233,234 240,230 Q247,234 250,248 Q252,264 240,282Z" fill="#f0d0d8" opacity="0.88"/>
+        <path d="M240,282 Q235,270 237,260 Q239,252 240,250 Q241,252 243,260 Q245,270 240,282Z" fill="#f8e0e4" opacity="0.85"/>
+        <ellipse cx="240" cy="284" rx="14" ry="7" fill="#f5d068" opacity="0.88"/>
+        <ellipse cx="240" cy="282" rx="10" ry="5" fill="#f8e090" opacity="0.95"/>
+        <ellipse cx="240" cy="267" rx="26" ry="48" fill="url(#glow2)" opacity="0.5"/>
+        <rect x="237" y="226" width="7" height="52" rx="3" fill="#e8d8a8" opacity="0.88"/>
+        <rect x="238" y="224" width="5" height="7" rx="2" fill="#f0e4b8" opacity="0.95"/>
+        <ellipse cx="240" cy="222" rx="4" ry="7" fill="#f5c842" opacity="0.88"/>
+        <ellipse cx="240" cy="219" rx="3" ry="5" fill="#fde878" opacity="0.95"/>
+        <ellipse cx="240" cy="216" rx="2" ry="4" fill="#fff8d0" opacity="0.8"/>
+        <ellipse cx="240" cy="222" rx="15" ry="12" fill="#f5d060" opacity="0.14"/>
+        <ellipse cx="240" cy="222" rx="26" ry="20" fill="#f5d060" opacity="0.07"/>
+        <line x1="150" y1="468" x2="330" y2="468" stroke="#c8973a" stroke-width="0.5" opacity="0.35"/>
+        <text x="240" y="494" text-anchor="middle" font-family="Noto Serif TC, serif" font-size="12" fill="#9e8a70" opacity="0.65" letter-spacing="5">燭光引路・蓮心守護</text>
+      </svg>
+    </div>
+
 </section>
 
 <!-- SERVICES -->
@@ -788,7 +879,7 @@
       <span class="service-number">03</span>
       <div class="service-name">請帝君辦理</div>
       <p class="service-desc">祭拜祖先、嬰靈、冤親債主，或代辦地基主說明。不需本人到場，遠距離即可辦理，仙姑代為恭請帝君處理。</p>
-      <div class="service-price">NT$ 880 <small>／次</small></div>
+      <div class="service-price">NT$ 880 <small>／每項／每位</small></div>
       <p style="font-size:12px;color:var(--mist);margin-top:8px;">無需到場，遠距亦可辦理</p>
     </div>
   </div>
